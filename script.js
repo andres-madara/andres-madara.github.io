@@ -1,14 +1,4 @@
 
-$(window).resize(function(){
-  var windowWidth = $(window).width();
-  var imgSrc = $('#image');
-  if(windowWidth <= 400){			
-    imgSrc.attr('src','http://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-icon.png?v=c78bd457575a');
-  }
-  else if(windowWidth > 400){
-    imgSrc.attr('src','http://i.stack.imgur.com/oURrw.png');
-  }
-});
 
 !function(e,t) {
 	"object"== typeof exports&&"undefined"!=typeof module?module.exports=t():
