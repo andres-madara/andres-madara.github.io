@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Swiper demo</title>
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Demo styles -->
+  <style>
+    html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      background: #eee;
+      font-family: 'Museo Sans', Arial, sans-serif;
+      font-size: 14px;
+      color:white;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      background-image: url(images/back.jpg);
+      background-repeat: repeat;
+    }
+
+    /*.swiper-slide img {
+    	position: absolute;
+    	left: 40%;
+    	top:20px;
+    }*/
+
+    @font-face {
+	font-family: 'Museo Sans';
+	src: url('MuseoSansCyrl-300.eot');
+	src: local('MuseoSansCyrl-300'),
+		url('MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+		url('MuseoSansCyrl-300.woff') format('woff'),
+		url('MuseoSansCyrl-300.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+h1, h3, p {
+	display: block;
+
+}
+  </style>
+</head>
+<body>
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+      	<img src="images/swipe.gif" style="position: absolute; left: 36%; z-index: 2">
+        <img src="images/cover.jpg" style="position: absolute; top:0; left:33%; height: 620px;">
+      </div>
+      <div class="swiper-slide">
+        <div id="attributes">
+	      	<div id="image"><img src="silkway/greatSilkRoadOne05_.jpg" width="300px"></div>  	
+      		<div id="author"><h3>Чжан Хао</h3></div>
+      		<hr>
+      		<div id="title"><h1>Великий шелковый путь</h1></div>
+      		<hr>
+      		<div id="info"><p>2015 | бумага, акварель | 40x50</p></div>
+      		<div id="text"><p>Об истоках шёлкового пути рассказывает зрителям выполненная акварелью многофигурная композиция китайского студента Санкт-Петербургского государственного академического института живописи, скульптуры и архитектуры им. И.Е.Репина Чжана Хао. Он изобразил своих соотечественников за сбором каравана. Это единственная работа, дающая представление о традиционной национальной одежде и причёсках китайцев; о том, как упаковывались тюки с шёлком перед отправкой, и каким образом поклажа крепилась на спинах верблюдов. Видно, что студент-старшекурсник хорошо овладел русской школой реалистического искусства: детально выписаны лица и одежда людей, фигуры животных, естественны и пластичны их позы и жесты.</p></div>
+      	</div>
+      </div>
+      <div class="swiper-slide">
+      	<div id="attributes">
+	      	<div id="image"><img src="silkway/greatSilkRoadTwo01_.jpg" width="300px"></div>  	
+      		<div id="author"><h3>Билалова Чулпан</h3></div>
+      		<hr>
+      		<div id="title"><h1>Акын (Сказитель)</h1></div>
+      		<hr>
+      		<div id="info"><p>2015 | холст, акрил | 100x120</p></div>
+      		<div id="text"><p>Полотно «Акын» («Сказитель») Чулпан Билаловой без лишних комментариев захватывает зрителя и словно погружает его в глубину веков, когда даже книги были великой редкостью и многое передавалось из уст в уста. О чём рассказывает этот древний старец? О легендах и преданиях разных народов, о необычных приключениях, случившихся во время путешествия по Великому шёлковому пути? — Мы этого не знаем. Но его огромное, чуть ли не на весь холст (100 × 120) лицо, изборождённое глубокими морщинами, с закрытыми глазами и открытым, вещающим ртом, притягивает взгляд и производит необычайно сильное впечатление.</p></div>
+      	</div>
+      </div>
+      <div class="swiper-slide">
+      	<div id="attributes">
+	      	<div id="image"><img src="silkway/greatSilkRoadTwo15_.jpg" width="300px"></div>  	
+      		<div id="author"><h3>Горбачев Сергей</h3></div>
+      		<hr>
+      		<div id="title"><h1>Кормчий</h1></div>
+      		<hr>
+      		<div id="info"><p>2015 | холст, акрил | 60x100</p></div>
+      		<div id="text"><p>Какой-то текст</p></div>
+      	</div>
+      </div>
+      <div class="swiper-slide">
+      	<div id="attributes">
+	      	<div id="image"><img src="silkway/greatSilkRoadThree04_.jpg" width="300px"></div>  	
+      		<div id="author"><h3>Байрамгулова Айгуль</h3></div>
+      		<hr>
+      		<div id="title"><h1>Хумай - Дочь Солнца</h1></div>
+      		<hr>
+      		<div id="info"><p>2015 | холст, масло | 100x90</p></div>
+      		<div id="text"><p>Айгуль Байрамгулова (Уфа) в картине «Хумай — дочь Солнца» обращается к образу девушки-птицы, встречающемуся в сказках и легендах многих народов. Яркая, красочная композиция, построенная на сочетаниях и контрастах жёлтого, красного и коричневого цветов, включает башкирские орнаменты и элементы одежды.</p></div>
+      	</div>
+      </div>
+      <div class="swiper-slide">
+      	<div id="attributes">
+	      	<div id="image"><img src="silkway/greatSilkRoadOne18_.jpg" width="300px"></div>  	
+      		<div id="author"><h3>Шыгаев Юристанбек</h3></div>
+      		<hr>
+      		<div id="title"><h1>Колесница Великого шелкового пути</h1></div>
+      		<hr>
+      		<div id="info"><p>2015 | холст, масло | 100x100</p></div>
+      		<div id="text"><p>Художник воплотил свое символическое видение Великого шелкового пути в виде огромной запряжённой быками колесницы, открывающейся взгляду с высоты птичьего полёта. Повозка разделена на множество частей, в каждой из которых своё изображение: стилизованных людей, животных, рыб и различных знаков. Эта манера автора, получившая современное название трансавангард, берёт своё начало в наскальных линейных рисунках, сохранившихся на древних каменных изваяниях — балбалах. Однако кыргызстанский художник лишь отталкивается от них, создавая свой собственный изобразительный язык, обогащённый многообразием форм и цвета.</p></div>
+      	</div>
+      </div>
+      <div class="swiper-slide">
+      	<div id="attributes">
+	      	<div id="image"><img src="silkway/greatSilkRoadOne26_.jpg" width="300px"></div>  	
+      		<div id="author"><h3>Гылычдурдыева Тачджамал</h3></div>
+      		<hr>
+      		<div id="title"><h1>Великий шелковый путь через пустыню Каракумы</h1></div>
+      		<hr>
+      		<div id="info"><p>2015 | холст, масло | 60x80</p></div>
+      		<div id="text"><p>«Великий шёлковый путь через пустыню Каракумы» — так назвала свою живописную работу туркменская художница Тачджамал Гылычдурдыева. В опалённой солнцем пустыне с волнистыми барханами движется караван верблюдов. Впрочем, изображён он в виде одного-единственного животного с седоком. Всё остальное — это многоцветный шлейф, символизирующий богатые товары, которые везли с Востока на Запад. Сотни километров приходилось преодолевать путникам по безводным пескам, прежде чем появлялись на горизонте очертания строений. В следующей картине Т.Гылычдурдыевой запечатлён момент прибытия в караван-сарай. В левой части полотна видна пустыня с чахлой растительностью. На жёлтом с бело-охристыми пятнами фоне почти чёрными кажутся силуэты верблюдов, замыкающих караван. В правой части картины изображено долгожданное место отдыха, встреч, молитв, обмена и продажи товаров. Туркменские мастера славились своими коврами и кошмами, которые можно увидеть на этом холсте.</p></div>
+      	</div>
+      </div>
+      <div class="swiper-slide">
+      	<div id="attributes">
+	      	<div id="image"><img src="silkway/greatSilkRoadOne09_.jpg" width="300px"></div>  	
+      		<div id="author"><h3>Пунам Чандрика Тьяги</h3></div>
+      		<hr>
+      		<div id="title"><h1>Memory 2 (Воспоминание 2)</h1></div>
+      		<hr>
+      		<div id="info"><p>2015 | холст, акрил | 90x90</p></div>
+      		<div id="text"><p>В творчестве индийской художницы Пунам Чандрика Тийаги женщины вообще занимают ключевое место. Они для неё — мистические существа, олицетворяющие любовь и приносящие жизнь. Тема арт-симпозиума нисколько не вошла в противоречие с художественными предпочтениями индийской художницы. Ведь по её мнению женщина может быть столь же нежной и светящейся, как шёлк, и также как он делать жизнь красивой, комфортной и яркой.</p></div>
+      	</div>
+      </div>
+      <div class="swiper-slide">
+      	<div id="thanx"><h1>Спасибо за посещение!<br />Приходите к нам еще!</h1></div>
+      </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div> -->
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="script.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'progressbar',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</body>
+</html>
