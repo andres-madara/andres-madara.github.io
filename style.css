@@ -1,5 +1,9 @@
 @media (max-width: 1000px) {
-	.swiper-button-next, .swiper-button-prev { display: none }
+	.arrow { display: none }
+}
+
+.arrow {
+	display: block;
 }
 
 .swiper-container {
