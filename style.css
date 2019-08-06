@@ -1,8 +1,6 @@
 @media (max-width: 1300px) {
-	swiper-button-prev, swiper-button-next { display: none !important; }
+	.swiper-button-prev, .swiper-container-rtl .swiper-button-next { display: none; }
 }
-
-swiper-button-prev, swiper-button-next { display: none; }
 
 .swiper-container {
 	margin:0 auto;
