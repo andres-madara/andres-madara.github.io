@@ -1,5 +1,5 @@
 @media (max-width: 1300px) {
-	.swiper-button-prev, .swiper-container-rtl .swiper-button-next { display: none; }
+	.swiper-container-rtl .swiper-button-prev, .swiper-container-rtl .swiper-button-next { display: none; }
 }
 
 .swiper-container {
