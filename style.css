@@ -1,5 +1,5 @@
 @media (max-width: 1300px) {
-	.arrow { display: none; }
+	swiper-button-prev, swiper-button-next { display: none; }
 	#image {display:none;)
 }
 
