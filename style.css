@@ -3,9 +3,7 @@
 	#image {display:none;)
 }
 
-.arrow {
-	display: block;
-}
+swiper-button-prev, swiper-button-next { display: none; }
 
 .swiper-container {
 	margin:0 auto;
